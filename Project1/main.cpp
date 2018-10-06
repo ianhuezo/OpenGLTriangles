@@ -65,12 +65,10 @@ int main()
 	GLuint fragmentShader;
 	fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
 	glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
-	glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
 	glCompileShader(fragmentShader);
 
 	GLuint fragmentShader2;
 	fragmentShader2 = glCreateShader(GL_FRAGMENT_SHADER);
-	glShaderSource(fragmentShader2, 1, &fragmentShaderSource2, NULL);
 	glShaderSource(fragmentShader2, 1, &fragmentShaderSource2, NULL);
 	glCompileShader(fragmentShader2);
 
